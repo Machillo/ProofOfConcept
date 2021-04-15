@@ -6,4 +6,4 @@ Phone= input("Escribe tu número telefonico aquí...")
 
 listas_de_datos=[Name, Direction, Phone]
 
-print("Los datos perosnales son: " + listas_de_datos[0] + " " + listas_de_datos[1] + " " + listas_de_datos[2])
+print("Los datos personales son: " + listas_de_datos[0] + " " + listas_de_datos[1] + " " + listas_de_datos[2])
