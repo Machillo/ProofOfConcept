@@ -15,12 +15,13 @@ function init(){
     var Nine = document.getElementById("Nine");
     var Four = document.getElementById("Four");
     var Five = document.getElementById("Five");
-    var Six = document.getElementById("Subtracts");
+    var Six = document.getElementById("Six");
     var One = document.getElementById("One");
     var Two = document.getElementById("Two");
     var Three = document.getElementById("Three");
     var Equal = document.getElementById("Equal");
     var Cero = document.getElementById("Cero");
+    var Subtracts = document.getElementById("Subtracts");
 
     Cero.onclick = function(e){
         Outcome.textContent = Outcome.textContent + "0";
@@ -53,14 +54,14 @@ function init(){
         Outcome.textContent = Outcome.textContent + "9";
     }
     Reset.onclick = function(e){
-        deleted();
+        resetear();
     }
     Sum.onclick = function(e){
         operationa = Outcome.textContent;
         operation = "+";
         limpiar();    
     }
-    Subtracks.onclick = function(e){
+    Subtracts.onclick = function(e){
         operationa = Outcome.textContent;
         operation = "-";
         limpiar();
@@ -76,23 +77,23 @@ function init(){
         limpiar();
     }
     Equal.onclick = function(e){
-        operandob = Outcome.textComent;
+        operationb = Outcome.textContent;
         resolver();
-    }
+    }   
 }
 
 function limpiar(){
-    resultado.textContent = "";
+    Outcome.textContent = "";
 }
 
-function Deleted(){
-    Outcome.textComent ="";
+function resetear(){
+    Outcome.textContent ="";
     operationa = 0;
     operationb = 0;
     operation = "";
 }
 
-function resolver() {
+function resolver(){
     var res = 0;
     switch(operation){
         case "+":
@@ -108,6 +109,6 @@ function resolver() {
             res = parseFloat(operationa) / parseFloat(operationb)
             break;        
     }
-    Deleted();
-    Outcome.textComent = res;
+    resetear();
+    Outcome.textContent = res;
 }
