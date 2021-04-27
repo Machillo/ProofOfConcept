@@ -24,5 +24,34 @@ function CheckAnswer(){
     Outcome.innerHTML = '<h3>You got <span> '+Points+' </span> of <span> '+Total+' points</span></h3>';
     //alert('You scored '+score+' out of ' +total);
 
+    picture ();
+
     return false;
 }
+
+function picture(){
+    var pic = "Images/Homero.png"
+    document.getElementById("Image").src = pic;
+    document.getElementById("Image").style.display= 'block'
+    }
+
+function picture(){ 
+    var pic = "Images/Ibba.png"
+    document.getElementById("Image").src = pic;
+    document.getElementById("Image").style.display='block';
+    }
+
+function picture(){ 
+    var pic = "Images/cat_craying.jpg"
+    document.getElementById("Image").src = pic;
+    document.getElementById("Image").style.display='block';
+    }
+
+if(Outcome >= 3)
+    alert(pic = "Images/Homero.png")
+
+if(Outcome = 2)
+    alert(pic = "Images/Ibba.png")
+
+if(Outcome <= 1)
+    alert(pic = "Images/cat_craying.jpg")
