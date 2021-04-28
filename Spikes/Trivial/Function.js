@@ -25,33 +25,25 @@ function CheckAnswer(){
     //alert('You scored '+score+' out of ' +total);
 
     picture ();
+    
 
     return false;
-}
+};
 
-function picture(){
-    var pic = "Images/Homero.png"
-    document.getElementById("Image").src = pic;
-    document.getElementById("Image").style.display= 'block'
-    }
-
-function picture(){ 
+if(Outcome == 3){function picture(){ 
     var pic = "Images/Ibba.png"
     document.getElementById("Image").src = pic;
     document.getElementById("Image").style.display='block';
-    }
+    }}
 
-function picture(){ 
+else if(Outcome ==2){function picture(){
+    var pic = "Images/Homero.png"
+    document.getElementById("Image").src = pic;
+    document.getElementById("Image").style.display= 'block';
+    }}
+
+else(function picture(){ 
     var pic = "Images/cat_craying.jpg"
     document.getElementById("Image").src = pic;
     document.getElementById("Image").style.display='block';
-    }
-
-if(Outcome >= 3)
-    alert(pic = "Images/Homero.png")
-
-if(Outcome = 2)
-    alert(pic = "Images/Ibba.png")
-
-if(Outcome <= 1)
-    alert(pic = "Images/cat_craying.jpg")
+    })
