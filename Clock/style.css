@@ -16,6 +16,8 @@ body {
 }
 
 .clock {
+  background-image: url('ClockFace/ClockFace.jpg');
+  background-size: cover;
   width: 30rem;
   height: 30rem;
   border: 20px solid rgb(247, 7, 7);
@@ -40,7 +42,7 @@ body {
 .hand {
   width: 50%;
   height: 6px;
-  background: rgb(255, 253, 253);
+  background: rgb(14, 13, 13);
   position: absolute;
   top: 50%;
   transform-origin: 100%;
