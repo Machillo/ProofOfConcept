@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trivial</title>
+        <link rel="stylesheet" href="Style.css"
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <h1>Trivial</h1>
+                <p>Answer the following questions: </p>
+                <img id="Image"></img>
+            </header>
+            <section>
+            <div id="Outcome"></div>
+                <form name="TrivialForm" onsubmit="return CheckAnswer()">
+                    <h3>1. Seleccione el nombre de un apostol: </h3>
+                    <input type="radio" name="p1" value="a">a. Mateo <br/>
+                    <input type="radio" name="p1" value="b">b. Joaquin <br/>
+                    <input type="radio" name="p1" value="c">c. Alberto <br/>
+                    <input type="radio" name="p1" value="d">d. Julian <br/>
+
+                    <h3>2. A que edad fue cricificado Jesús? </h3>
+                    <input type="radio" name="p2" value="a">a. 20 <br/>
+                    <input type="radio" name="p2" value="b">b. 33 <br/>
+                    <input type="radio" name="p2" value="c">c. 40 <br/>
+                    <input type="radio" name="p2" value="d">d. 50 <br/>
+
+                    <h3>3. La salvación se pierde? </h3>
+                    <input type="radio" name="p3" value="a">a. Si <br/>
+                    <input type="radio" name="p3" value="b">b. No <br/>
+                    <input type="radio" name="p3" value="c">c. Quiza <br/>
+                    <input type="radio" name="p3" value="d">d. Nose <br/>
+
+                    <input type="Submit" value="Sent">
+                </form>
+            </section>
+        </div>
+        <script src="Function.js"></script>
+        
+    </body>
+ </html>
