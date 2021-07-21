@@ -1,0 +1,142 @@
+{
+    "nav": {
+        "icon": "nav",
+        "items": [
+            {
+                "label": "Home",
+                "url": "/"
+            },
+            {
+                "label": "Nosotros",
+                "url": "/"
+            },
+            {
+                "label": "Menú",
+                "url": "/" 
+            },
+            {
+                "label": "Promociones",
+                "url": "/"
+            }
+        ]
+    },
+    "hero": {
+        "title": "Steam",
+        "subtitle": "Hamburguesas especiales",
+        "cta": "Ver menú",
+        "icon": "lightHamburger"
+    },
+    "quote": {
+        "title": "Hamburguesas de pura carne con el toque secreto."
+    },
+    "menu": {
+        "title": "Menú",
+        "cta": "Ver mi pedido (2)",
+        "items": [
+            {
+             "icon": "hamburguer"
+            },
+            {
+             "icon":"hamburguer"
+            },
+            {
+             "icon": "fries"
+            },
+            {
+             "icon": "soda"
+            }
+        ],
+        "products": [
+        {
+            "title": "Steam sencilla",
+            "subtitle": "1 torta de carne de res con queso, lechuga, tomate y pan.",
+            "price": "¢1200"
+        },
+        {
+            "title": "Steam doble",
+            "subtitle": "2 torta de carne de res con queso, lechuga, tomate y pan.",
+            "price": "¢1500"
+        },
+        {
+            "title": "Steam especial",
+            "subtitle":"1 torta de carne de res con queso, tocineta, lechuga, tomate y pan.",
+            "price": "¢1850"
+        }
+        ]
+        },
+        "challenge": {
+            "title": "#RetoNury",
+            "subtitle": "Cuentanos en redes sociales lo que mas te gusta de nuestras hamburguesas y obten 15% de descuento en tu próxima compra, aplica solo 1 vez.",
+            "social": [
+                {
+                    "icon": "facebook"
+                },
+                {
+                    "icon": "instagram"
+                }
+            ]
+        },
+        "contact": {
+            "title": "Contáctanos.",
+            "items": [
+                {
+                    "title": "Teléfono",
+                    "subtitle": "27866756"
+                },
+                {
+                    "title": "Dirección",
+                    "subtitle": "140m oeste de la iglesia Jubileo, contiguo a las cabinas Figurín"
+                }
+            ]
+        },
+        "styleguide": {
+            "title": "Mcnury burguer UI",
+            "sections": [
+                {
+                    "title": "Colors",
+                    "subtitle": "Añade acá tu paleta de color. Debes reemplazar las variables de color en colors.scss"
+                },
+                {
+                    "title": "Tipografia",
+                    "subtitle": "Añade acá tus fuentes. Debes reemplazar las variables de tipografía y los estilos de los headings en typography.scss"
+                },
+                {
+                    "title": "Grid",
+                    "subtitle": "Este proyecto utiliza 4 columnas en dispositivos móviles y 12 columnas a partir de tablet. Escala la página para ver como funciona."
+                },
+                {
+                    "title": "Botones",
+                    "subtitle": "Cambia los estilos de los botones en Cta.scss"
+                },
+                {
+                    "title": "Quote",
+                    "subtitle": "Este es un ejemplo del componente Quote."
+                },
+                {
+                    "title": "Product",
+                    "subtitle": "Este es un ejemplo del componente Product."
+                },
+                {
+                    "title": "Menu",
+                    "subtitle": "Este es un ejemplo del componente Menu."
+                },
+                {
+                    "title": "Challenge",
+                    "subtitle": "Este es un ejemplo del componente Challenge."
+                },
+                {
+                    "title": "ContactBox",
+                    "subtitle": "Este es un ejemplo del componente ContactBox."
+                },
+                {
+                    "title": "Nav",
+                    "subtitle": "Este es un ejemplo del componente Nav."
+                },
+                {
+                    "title": "Hero",
+                    "subtitle": "Este es un ejemplo del componente Hero."
+                }
+            ]
+        }
+    
+}
