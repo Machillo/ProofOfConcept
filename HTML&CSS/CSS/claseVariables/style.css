@@ -1,0 +1,39 @@
+:root /* variables en css*/ {
+    --primary-color: #003476; /*para utilizarlo debo de comenzar con --NombreVariable*/
+    --secondary-color: #b4d2f7;
+    --header-size: 4rem;
+    --font: 1.8rem;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%; /* 1 rem = a 10 px */
+    font-family: 'Palette Mosaic', cursive;
+}
+
+header {
+    width: 100%;
+    height: 15vh;
+    background-color: var(--primary-color); /*asi se llama la variable*/
+}
+
+main {
+    width: 100vw;
+    height: 70vh;
+    font-size: var(--font);
+}
+
+h1 {
+    font-size: 4rem;
+    color: var(--primary-color);
+}
+
+footer {
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--secondary-color);
+}

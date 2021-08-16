@@ -1,0 +1,29 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0; /*padding es un espacio nterno en un contenedor */
+    background-color: blueviolet; /*color de fondo*/
+}
+
+.main-nav__item {
+    display: inline-block; /* forma horizontal*/
+}
+
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover { /* hover es cuando el mouse pasa sobre el elemento */
+    color: blue;
+}
+
+.main-nav__item a:active { /*active es cuando doy click al elemento */
+    color: red;
+}
+
+.main-nav__item a::after { /*despues de este elemento agrega esto... */
+    content: "|";
+}
